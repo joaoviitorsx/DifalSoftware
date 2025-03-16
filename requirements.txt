@@ -1,2 +1,6 @@
 PySide6
 mysql-connector-python
+requests
+xmltodict
+Pillow
+pandas
