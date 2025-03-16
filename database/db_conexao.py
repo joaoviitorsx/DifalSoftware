@@ -5,7 +5,7 @@ from utils.mensagem import mensagem_error
 # Configurações do Banco de Dados
 HOST = "localhost"
 USER = "root"
-PASSWORD = "jv12345"
+PASSWORD = "senha"
 DATABASE = "empresas_db"
 
 def conectar_banco():
