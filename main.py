@@ -1,6 +1,7 @@
 import sys
 from PySide6.QtWidgets import QApplication, QMainWindow, QStackedWidget
 from PySide6.QtCore import QSize
+from PySide6.QtGui import QIcon
 
 from ui.tela_inicial import TelaInicial
 from ui.tela_cadastro import TelaCadastro
@@ -11,6 +12,7 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("DIFAL Calculadora")
+        self.setWindowIcon(QIcon("images/icone.ico"))
         self.setMinimumSize(QSize(800, 600))
         
         # Criando o QStackedWidget para navegação entre telas
